@@ -5,6 +5,8 @@ from rest_framework_swagger import renderers
 from rest_framework.decorators import api_view, renderer_classes
 from drf_yasg.utils import swagger_auto_schema
 from drf_yasg import openapi
+from rest_framework.permissions import IsAuthenticated
+from rest_framework_simplejwt.authentication import JWTAuthentication
 
 
 products = {
@@ -39,3 +41,12 @@ class Products(APIView):
 class MyTestAPIView(APIView):
     def post(self, request):
         return Response({"foo": "bar"})
+
+
+class Home(APIView):
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        content = {'message': 'Hello, World!'}
+        return Response(content)

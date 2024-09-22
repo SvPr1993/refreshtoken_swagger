@@ -1,20 +1,22 @@
 import pickle
 import requests
-from api_client_token import token_load
 
 
+# Сделать так, чтобы код заработал, по возможности оптимизировать его
 def main():
-    header = {"Authorization": f"Bearer {token_load}"}
-    response = requests.get("http://127.0.0.1:8000/api/products/home/", headers=header)
     if response.status_code == 200:
         print("Все в порядке")
     elif response.status_code == 401:
         print("Статус 401")
-        test = load_tokens_from_file(),
-        update_token(test[0][1]),
-        save_access_token(test[0][0])
+        update_token()
     else:
         print("Неизвестная ошибка")
+    header = {"Authorization": f"Bearer {access_token_load}"}
+    refresh_body = {"refresh": refresh_token_load}
+    response = requests.get("http://127.0.0.1:8000/api/products/home/", headers=header)
+    print(response)
+    print(response.json())
+    header = {"Authorization": f"Bearer {token_access}"}
     print(response)
     print(response.json())
 
@@ -29,7 +31,7 @@ def load_tokens_from_file() -> tuple[str, str]:
     return access_token_load, refresh_token_load
 
 
-def update_token(refresh_token_load: str):
+def update_token():
     print("start update token")
     refresh_token = refresh_token_load
     print(refresh_token)
@@ -45,8 +47,3 @@ def save_access_token(access_token: str):
     with open("access_token.pickle", "wb") as f:
         pickle.dump(access_token, f)
         print("File save, OK")
-
-
-if __name__ == "__main__":
-    main()
-

@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7380d635-ac8c-4fac-aec6-85949a394a14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/access_token.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/access_token.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refresh_api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/refresh_api_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refresh_token.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/refresh_token.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/token.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/token_api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/token_api_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token_refresh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/token_refresh/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +28,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/пользователь/Desktop/Python/DJANGO/refreshtoken&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/пользователь/Desktop/Python/DJANGO/location_app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.token_api_client">
     <configuration name="token_api_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="refreshtoken" />
@@ -124,7 +118,8 @@
       <workItem from="1726762799029" duration="22000" />
       <workItem from="1726906746250" duration="16157000" />
       <workItem from="1726926703096" duration="5000" />
-      <workItem from="1726990601641" duration="7311000" />
+      <workItem from="1726990601641" duration="7610000" />
+      <workItem from="1727190509770" duration="623000" />
     </task>
     <servers />
   </component>

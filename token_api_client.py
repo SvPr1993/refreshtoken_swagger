@@ -47,6 +47,5 @@ def save_access_token(access_token: str):
         print("File save, OK")
 
 
-if __name__ == "__main__":
-    main()
+main()
 
